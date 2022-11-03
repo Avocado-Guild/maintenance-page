@@ -22,6 +22,7 @@
         z-index: -1;
         mask-image: linear-gradient(to bottom, transparent, black);
         background: linear-gradient(90deg, #010002, #041f15);
+        -webkit-mask-image: linear-gradient(to bottom, transparent, black);
       }
       h1 {
         font-size: 4em;
@@ -35,9 +36,16 @@
         left: 50%;
         transform: translateX(-50%);
       }
+      img {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
     </style>
   </head>
   <body>
+    <img src="./assets/avo-ded.png" alt="maintenance img" />
     <h1>We will be back soon!</h1>
   </body>
 </html>
